@@ -4,7 +4,6 @@ import json
 import time
 from time import sleep
 
-import self
 from selenium import webdriver
 
 from common.global_parameter import base_url

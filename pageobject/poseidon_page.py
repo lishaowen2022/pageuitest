@@ -1,6 +1,5 @@
 # author:lihua
 # Time:2022/11/15 3:17 PM
-import self
 from selenium.webdriver.common.by import By
 
 from base.base_page import BasePage

@@ -3,9 +3,7 @@
 #退出登录
 from time import sleep
 
-import pyperclip
 import pytest
-from pynput.keyboard import Controller, Key
 from selenium.webdriver.common.by import By
 
 from base.base_page import BasePage

@@ -28,7 +28,7 @@ class SettingsPage(BasePage):
     # ins_account_loc=(By.XPATH,'//*[@id="loginForm"]/div/div[1]/div/label/input')
     # ins_password_loc=(By.XPATH,'//*[@id="loginForm"]/div/div[2]/div/label/input')
     # ins_login_btn_loc=(By.CLASS_NAME,'_acan _acap _acas')
-    def settings_page(self,insAccount,pwd):
+    def settings_page(self):
 
         # settings page操作
         self.click(self.settings_loc)
