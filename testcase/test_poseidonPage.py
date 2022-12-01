@@ -16,7 +16,8 @@ class TestPoseidonPage():
         driver = self.driver
         #加载网页
         self.driver.get(poseidon_page)
+        self.driver.maximize_window()
     def test_poseidon(self):
 
         pp=PoseidonPage(self.driver)
-        pp.poseidon_page()
+        pp.poseidon_page(searchname='cuci')

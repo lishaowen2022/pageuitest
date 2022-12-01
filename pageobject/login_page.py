@@ -9,7 +9,6 @@ import json
 from pprint import pprint
 from time import sleep
 from selenium.webdriver.common.by import By
-# from selenium.webdriver.common.devtools.v104 import browser
 
 from base.base_page import BasePage
 
