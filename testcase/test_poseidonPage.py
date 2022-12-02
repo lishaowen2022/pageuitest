@@ -1,5 +1,7 @@
 # author:lihua
 # Time:2022/11/15 3:27 PM
+import time
+
 from selenium import webdriver
 
 from base.base_util import BaseUtil
@@ -8,7 +10,6 @@ from pageobject.poseidon_page import PoseidonPage
 
 
 class TestPoseidonPage():
-    #analytics page
     def setup(self) ->None:
         global driver
         #打开浏览器
@@ -21,3 +22,7 @@ class TestPoseidonPage():
 
         pp=PoseidonPage(self.driver)
         pp.poseidon_page(searchname='cuci')
+
+    # def teardown(self) ->None:
+    #     time.sleep(3)
+    #     self.driver.quit()
