@@ -23,6 +23,6 @@ class TestPoseidonPage():
         pp=PoseidonPage(self.driver)
         pp.poseidon_page(searchname='cuci')
 
-    # def teardown(self) ->None:
-    #     time.sleep(3)
-    #     self.driver.quit()
+    def teardown(self) ->None:
+        time.sleep(3)
+        self.driver.quit()

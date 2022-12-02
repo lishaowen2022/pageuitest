@@ -16,7 +16,7 @@ class TestAnalyticsPage(BaseUtil):
 
             # 调用登录方法
             lp = LoginPage(self.driver)
-            lp.login_page_use_mobile(phone='822223333', code=login_code)
+            lp.login_page_use_mobile(phone='822222223333333', code=login_code)
             ap=AnalyticsPage(self.driver)
             ap.analytics_page()
 
