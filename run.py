@@ -1,10 +1,12 @@
 # author:lihua
 # Time:2022/10/29 11:00 AM
 import os
+import unittest
 import sys
 sys.path.append("..")
 #测试jenkins
-import unittest
+
+
 import pytest
 
 if __name__ == '__main__':
