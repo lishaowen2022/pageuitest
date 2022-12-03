@@ -2,7 +2,7 @@
 # Time:2022/10/29 11:00 AM
 import os
 import sys
-sys.path.append('/var/jenkins_home/workspace/page')
+sys.path.append('/var/jenkins_home/workspace/page/testcase')
 #测试jenkins
 import unittest
 
