@@ -1,10 +1,10 @@
 # author:lihua
 # Time:2022/10/29 11:00 AM
 import os
-import unittest
 import sys
-sys.path.append("..")
+sys.path.append('/var/jenkins_home/workspace/page/')
 #测试jenkins
+import unittest
 
 
 import pytest
