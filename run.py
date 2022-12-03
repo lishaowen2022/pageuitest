@@ -2,7 +2,7 @@
 # Time:2022/10/29 11:00 AM
 import os
 import sys
-sys.path.append('/usr/src/py3/Lib')
+sys.path.append(sys.path[0]+'\..')
 #测试jenkins
 import unittest
 
