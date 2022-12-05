@@ -37,7 +37,7 @@ class BaseUtil:
 
     def setup(self) ->None:
 
-        global driver
+        
         #实例化浏览器对象
         self.driver = webdriver.Chrome()
 
