@@ -14,7 +14,7 @@ from selenium.webdriver.chrome.options import Options
 
 from common.global_parameter import base_url
 
-current_path = os.path.dirname(os.path.abspath(__file__))
+#current_path = os.path.dirname(os.path.abspath(__file__))
 system_driver = sys.platform
 
 
