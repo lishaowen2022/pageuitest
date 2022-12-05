@@ -39,9 +39,10 @@ class BaseUtil:
 
         global driver
         #实例化浏览器对象
+        driver = self.driver
         self.driver = webdriver.Chrome()
 
-        driver = self.driver
+        #driver = self.driver
         #加载网页
         self.driver.get(base_url)
         # cookies = driver.get_cookies()#获取目前所有的cookies
