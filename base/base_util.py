@@ -41,7 +41,7 @@ class BaseUtil:
         #实例化浏览器对象
         self.driver = webdriver.Chrome()
 
-        #driver = self.driver
+        driver = self.driver
         #加载网页
         self.driver.get(base_url)
         # cookies = driver.get_cookies()#获取目前所有的cookies
