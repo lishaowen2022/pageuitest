@@ -24,7 +24,8 @@ class BaseUtil:
     #设置全局的 driver
 
     def __get_chrome_driver(self):
-        if system_driver.lower() == "Debian":
+        global driver
+        if system_driver.lower() == "linux":
             chrome_options = Options()
             chrome_options.add_argument('no-sandbox')
             chrome_options.add_argument("headless")
