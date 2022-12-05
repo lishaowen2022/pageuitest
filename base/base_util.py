@@ -24,7 +24,7 @@ class BaseUtil:
     #设置全局的 driver
 
     def __get_chrome_driver(self):
-        global driver
+        
         if system_driver.lower() == "linux":
             chrome_options = Options()
             chrome_options.add_argument('no-sandbox')
@@ -37,7 +37,7 @@ class BaseUtil:
 
     def setup(self) ->None:
 
-        
+        global driver
         #实例化浏览器对象
         self.driver = webdriver.Chrome()
 
