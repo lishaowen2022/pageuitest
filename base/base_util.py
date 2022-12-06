@@ -5,39 +5,17 @@
 
 import json
 import time
-import os
-import sys
 from pprint import pprint
 
 from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
 
 from common.global_parameter import base_url
-
-#current_path = os.path.dirname(os.path.abspath(__file__))
-system_driver = sys.platform
-
-
 
 
 class BaseUtil:
     #设置全局的 driver
 
-    def __get_chrome_driver(self):
-        
-        if system_driver.lower() == "linux":
-            chrome_options = Options()
-            chrome_options.add_argument('--headless')
-            chrome_options.add_argument('--disable-gpu')
-            chrome_options.add_argument('--no-sandbox')
-            chrome_options.add_argument('--disable-dev-shm-usage')
-            driver = webdriver.Chrome(chrome_options=chrome_options)
-            return driver
-
-
-
     def setup(self) ->None:
-
         global driver
         #实例化浏览器对象
         self.driver = webdriver.Chrome()
